@@ -19,7 +19,7 @@ if (!empty($searchQuery)) {
 <label for="search_query">Nosaukums satur: </label>
   <input type="text" name="search_query" 
          value="<?= htmlspecialchars($searchQuery) ?>" class="search-input" />
-  <button type="submit" class="search-button">Search</button>
+  <button type="submit" class="search-button">Atlasīt</button>
 </form>
 
 <ul>
